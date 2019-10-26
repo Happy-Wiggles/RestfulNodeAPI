@@ -1,0 +1,31 @@
+{
+  "name": "rest-api-server",
+  "version": "1.0.0",
+  "description": "Rest API Server for university project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Happy-Wiggles/RestfulNodeAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Server"
+  ],
+  "author": "Justin Scheel und Alexander Müller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Happy-Wiggles/RestfulNodeAPI/issues"
+  },
+  "homepage": "https://github.com/Happy-Wiggles/RestfulNodeAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
